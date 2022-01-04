@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.insta-account {
+    width: 35%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgba(124, 124, 124, 0.733);
+    border-radius: 5px;
+}
+
+.insta-account .logo {
+    width: 16rem;
+    position: absolute;
+    top: 18%;
+    
+
+}
+
+.insta-account #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50% auto;
+    
+}
+
+.insta-account #form input {
+    margin: 5px;
+    padding: 10px 60px;
+    background: #f7f5f5;
+    font-size: 0.80rem;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    outline: none;   
+    
+}
+
+
+.insta-account #form .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(27, 158, 233, 0.4);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 8px 42%;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.insta-account #form .line::before{
+    content: "";
+    background: #ccc;
+    position: absolute;
+    right: 34%;
+    top: 53%;
+    width: 115px;
+    height: .115rem;
+    border-radius: 2px;
+    
+
+}
+
+.insta-account #form .line::after{
+    content: "";
+    background: #ccc;
+    position: absolute;
+    right: 25%;
+    top: 53%;
+    width: 115px;
+    height: .115rem;
+    border-radius: 2px;
+
+}
+
+.insta-account #form .line {
+    font-weight: 700;
+    font-style: 20px;
+    text-transform: uppercase;
+    color:#ccc;
+}
+
+.insta-account #form a {
+    text-decoration: none;
+    margin: 30px;
+}
+
+.face {
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(3, 100, 156)
+}
+
+.face i {
+    background-color: rgba(14, 62, 221, 0.863);
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.psw {
+    font-size: 12px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15%;
+    right: 20.35%;
+    background: #fff;
+    border: 1px solid rgba(124, 124, 124, 0.733);
+    padding: 1.4rem 0;
+    border-radius: 5px;
+    width: 24.50% ;
+    
+}
+
+.register a {
+    text-decoration: none;
+    color:rgba(14, 62, 221, 0.863);
+    font-weight: bold;
+}
+
+
+@media (max-width: 800) {
+    .insta-account {
+        width: 90%;
+    }
+}
+
